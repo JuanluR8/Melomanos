@@ -1,0 +1,188 @@
+/*
+    HOJA DE ESTILOS DEL MAIN
+*/
+
+/*
+ * Cabecera
+ */
+#main-header {
+    background: #58D68D;
+    color: white;
+    height: 80px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+#main-header a {
+        color: white;
+}
+
+/*
+ * Logo
+ */
+#foto-cabecera{
+    float: left;
+    width: 64px;
+    padding: 5px 0px 5px 15px; /*(Arriba, Derecha, Abajo, Izquierda)*/
+}
+
+#logo-header {
+    float: left;
+    padding: 5px 0 0 20px;
+    text-decoration: none;
+}
+
+#logo-header .site-name {
+    display: block;
+    font-weight: 700;
+    font-size: 3.0em;
+    padding-top: 5px;
+}
+
+
+/*
+* Navegación
+*/
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    font-size: 1.4em;
+}
+
+/*
+ *  Contenido
+ */
+body{
+  background-color: #f2f2f2;
+}
+
+#left{
+  float: left;
+  width: 45%;
+  margin-left: 32px;
+}
+
+#right{
+  float: right;
+  width: 45%;
+  margin-right: 32px;
+}
+
+
+/*
+ *  Formularios
+ */
+.nuevo-mensaje {
+    background: white;
+    width: 100%;
+    max-width: 800px;
+    margin: 100px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    border-radius: 10px;
+}
+
+#formulario{
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#formulario select{
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+
+#formulario textArea {
+    width: 80%;
+}
+
+#formulario button{
+  background-color: #58D68D;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 14px;
+  color: white;
+}
+
+/*
+ *  Mensajes
+ */
+.mensajes{
+  background: white;
+  width: 100%;
+  max-width: 800px;
+  margin: -80px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  border-radius: 10px;
+}
+
+.mensajes h1{
+  text-align: center;
+  color: #58D68D;
+  font-size: 24px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+#listaMensajes{
+  list-style: none;
+	padding: 5px 30px 20px 30px;
+}
+
+#listaMensajes li{
+  border: 1px solid #ddd;
+	box-shadow: 0 0 5px #ddd;
+  margin-bottom: 15px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#emisorMensaje {
+  margin-top: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  background-color: #58D68D;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#contenidoMensaje{
+  padding-left: 15px;
+  margin-bottom: 5px;
+  padding-right: 15px;
+}
+
+#fechaMensaje{
+  font-size: 14px;
+  color: #A6ACAF;
+  text-align: right;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-bottom: auto;
+}

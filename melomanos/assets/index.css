@@ -1,0 +1,98 @@
+/*
+    HOJA DE ESTILOS DEL INDEX
+*/
+
+body{
+    font-family: monospace;
+    background-image: url(./imagenes/background-portada.jpg);
+    background-size: 100%;
+}
+
+p #err-msg{
+    text-align: center;
+    background-color: #82E0AA;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#formularios{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#formularios h2{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#formularios input{
+  margin-top: 5px;
+}
+
+#formularios button{
+    margin-top: 15px;
+    background-color: #FF5733;
+    text-align: center;
+    font-size: 16px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+}
+
+#formularios #EntrarForm{
+    float: left;
+    background-color: #82E0AA;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 20px;
+}
+
+#formularios #RegistrarForm{
+    float: right;
+    background-color: #82E0AA;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 20px;
+}
+
+#titulo-portada{
+    margin-top: 32px;
+    text-align: center;
+}
+
+#titulo-portada h1{
+    font-size: 60px;
+    font-weight: 900;
+    color:  #82E0AA;
+    margin: 2px;
+}
+
+#titulo-portada img{
+    width: 256px;
+    height: 256px;
+}
+
+#titulo-portada p{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -2px;
+    color:  #f2f3f4;
+}
+
+#titulo-portada .err-msg{
+    text-align: center;
+    background-color: #FF5733;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10px;
+
+}
